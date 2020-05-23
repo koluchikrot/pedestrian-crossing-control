@@ -169,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590249688221</updated>
       <workItem from="1590249692610" duration="832000" />
-      <workItem from="1590266971314" duration="863000" />
+      <workItem from="1590266971314" duration="1175000" />
     </task>
     <task id="LOCAL-00001" summary="Added database with samples">
       <created>1590249956663</created>
@@ -182,7 +182,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1695000" />
+    <option name="totallyTimeSpent" value="2007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
