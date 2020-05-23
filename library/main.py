@@ -27,7 +27,7 @@ def main():
                 if id_person != -1:
                     if d["ids"][i] == id_person:
                         send_email.send(d["emails"][i], d["full_names"][i],
-                                        '../database/known_faces/' + str(id_person) + '.jpeg')
+                                        '../database/recognized_faces/' + str(id_person) + '.jpeg')
 
         video_capture.release()
         if cv2.waitKey(1) & 0xFF == ord('q'):

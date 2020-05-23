@@ -57,7 +57,7 @@ def recognition(video_capture, d):
                         k = k + 1
 
                 if k == 0:
-                    filename = '../database/known_faces/' + str(id_person) + '.jpeg'
+                    filename = '../database/recognized_faces/' + str(id_person) + '.jpeg'
                     cv2.imwrite(filename, frame)
                 face_ids.add(id_person)
 
