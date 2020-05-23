@@ -9,8 +9,8 @@ from email.mime.text import MIMEText
 from email.header import Header
 from _datetime import datetime
 
-email = 'icrosssystem@mail.ru'
-password = 'keklol12345'
+email = 'example@example.com'
+password = '***'
 
 
 def send(send_to, name, img_send):
