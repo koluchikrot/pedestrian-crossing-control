@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0addd7c3-7713-4d91-a0cd-d78171f502e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/recognized_faces/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/database/recognized_faces/2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/send_email.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590249688221</updated>
       <workItem from="1590249692610" duration="832000" />
-      <workItem from="1590266971314" duration="623000" />
+      <workItem from="1590266971314" duration="863000" />
     </task>
     <task id="LOCAL-00001" summary="Added database with samples">
       <created>1590249956663</created>
@@ -186,11 +182,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1455000" />
+    <option name="totallyTimeSpent" value="1695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
