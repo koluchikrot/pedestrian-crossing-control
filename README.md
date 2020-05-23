@@ -15,7 +15,9 @@
 ![](database/source/red.jpg)
 
 Результат фиксации нарушения таков:
+
 ![](database/recognized_faces/2.jpeg)
 
 И уведомление:
+
 ![](database/source/Fine.png)
