@@ -7,6 +7,7 @@ import cv2
 import numpy as np
 import transliterate
 from _datetime import datetime
+import os
 
 
 def recognition(video_capture, d):
@@ -21,6 +22,7 @@ def recognition(video_capture, d):
     process_this_frame = True
     known_face_encodings = d["encodings"]
     ids = d["ids"]
+    dirname = os.path.dirname(__file__)
 
     start_time = datetime.now()
     while (datetime.now() - start_time).total_seconds() < 10:
@@ -57,7 +59,8 @@ def recognition(video_capture, d):
                         k = k + 1
 
                 if k == 0:
-                    filename = '../database/recognized_faces/' + str(id_person) + '.jpeg'
+                    filename = os.path.join(dirname, '../../database/recognized_faces/' + str(id_person) + '.jpeg')
+                    filename = os.path.normpath(filename)
                     cv2.imwrite(filename, frame)
                 face_ids.add(id_person)
 
@@ -79,7 +82,7 @@ def recognition(video_capture, d):
             if id_person != -1:
                 for i in range(0, len(ids)):
                     if ids[i] == id_person:
-                        name = d["names"][i]
+                        name = d["full_names"][i]  # d["names"][i]
 
                 name = transliterate.translit(name, reversed=True)
             cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
